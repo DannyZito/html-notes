@@ -13,8 +13,8 @@
 	Anything between the opening < html> and closing </ html> tags will be interpreted as HTML code.
 	A html tag goes at the beginning and end of an < html> CODE, a < p> tag goes at the beginning and end of a PARAGRAPH.
 	Closing tags have a forward slash (/) inside of them, directly after the left angle bracket.  
-	The opening and closing head tags (< head></ head>) typically appear as the first item after your first HTML tag.  
-	The title can be specified directly inside of the (< head>) element, by using a < title> tag. 
+	The opening and closing head tags &lthead&gt &lt/head&gt typically appear as the first item after your first HTML tag.  
+	The title can be specified directly inside of the (< head>) element, by using a &lttitle&gt tag. 
 	Whitespace makes the code easier to read, example:
 	</body>
 	<p>Paragraph 1</p>
@@ -22,30 +22,34 @@
 	
 
 	Comments begin with < !-- and end with -->. Any characters in between will be ignored by your browser.
-	< h1> - used for main headings. All other smaller headings are used for subheadings. Example: < h2>, < h3>, < h4>.
-	The < em> tag will generally render as italic emphasis.
-	The < strong> will generally render as bold emphasis.
+	< h1> - used for main headings. All other smaller headings are used for subheadings. Example: &lth2&gt, &lth3&gt, &lth4&gt.
+	The &ltem&gt tag will generally render as italic emphasis.
+	The &ltstrong&gt will generally render as bold emphasis.
 	To modify the spacing in the browser, you can use HTML's line break element: <br />
 	
 	<h2>LISTS</h2>
 	
 	<p>Unordered List Contains:</p>
 	<ul>
-	< ul>
-	<li>< li>Nacho< /li></li>
+	&ltul&gt
+	<li>&ltli>Nacho&lt/li&gt</li>
 	<li>Tortillas</li>
 	<li>Chicken</li>
-	< /ul>
+	&lt/ul&gt
 	</ul>
-	Ordered lists are like unordered lists, except that each list item is numbered. You can create the ordered list with the < ol> tag and then add individual list items to the list using < li> tags.
+	Ordered lists are like unordered lists, except that each list item is numbered. You can create the ordered list with the &ltol&gt tag and then add individual list items to the list using &ltli&gt tags.
 	<h2>IMAGES</h2>
-	<p>The < img> tag allows you to add an image to a web page. This is another example of a self-closing tag.
+	<p>The &ltimg&gt tag allows you to add an image to a web page. This is another example of a self-closing tag.
 	src must be the uniform resource locator (URL) of the image.
 Example: < img src="image-location.com" />
     Visually impaired users often browse the web with the aid of screen reading software. 
 	When you include the alt attribute, the screen reading software can read the image's description out loud to the visually impaired user.
-	Using < img src="link of the image" alt="A description of the image" /> we can add an image to the site like so:<img src="http://www.itsecurityguru.org/wp-content/uploads/2015/04/bigstock-Hacker-Typing-On-A-Laptop-44548564-600x350.jpg" alt="Hacker" /> </p>
+	Using &ltimg src="link of the image" alt="A description of the image"/&gt we can add an image to the site like so:<img src="http://www.itsecurityguru.org/wp-content/uploads/2015/04/bigstock-Hacker-Typing-On-A-Laptop-44548564-600x350.jpg" alt="Hacker" /> </p>
 	Like the < img> tag, the < video> tag requires a src attribute with a link to the video source.
 	Unlike the < img> tag however, the < video> element requires an opening and a closing tag.
+	&ltvideo src="link of video" width="320" height="240" controls&gt
+    &lt/video&gt
     </body>
  </html>
+
+
