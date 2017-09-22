@@ -48,8 +48,16 @@ Example: < img src="image-location.com" />
 	Like the < img> tag, the < video> tag requires a src attribute with a link to the video source.
 	Unlike the < img> tag however, the < video> element requires an opening and a closing tag.
 	&ltvideo src="link of video" width="320" height="240" controls&gt
-    &lt/video&gt
+    &lt/video&gt </p>
+	<h2>ADDING LINKS</h2>
+	<p>You can add links to a web page by adding an anchor element &lta&gt and including the text of the link in between the opening and closing tags.</p>
+	<p>You must also add a href attribute like so;</p>
+	&lta href="link to site"&gt description of link&lt/a&gt
+	For a link to open in a new window, the target attribute requires a value of _blank. The target attribute can be added directly to the opening tag of the anchor element, just like the href attribute.
+
+&lta href="https://en.wikipedia.org/wiki/Brown_bear" target="_blank"&gtThe Brown Bear&lt/a&gt
+	<p>A relative path is a filename that shows the path to a local file (a file on the same website, such as ./index.html) versus an absolute path (a full url, like www.codecademy.com/learn/ruby which is stored in a different folder). The ./ in ./index.html tells the browser to look for the file in the current folder.
+
+&lta href="./contact.html"&gtContact&lt/a&gt
     </body>
  </html>
-
-
