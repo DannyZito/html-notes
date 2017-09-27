@@ -59,5 +59,24 @@ Example: < img src="image-location.com" />
 	<p>A relative path is a filename that shows the path to a local file (a file on the same website, such as ./index.html) versus an absolute path (a full url, like www.codecademy.com/learn/ruby which is stored in a different folder). The ./ in ./index.html tells the browser to look for the file in the current folder.
 
 &lta href="./contact.html"&gtContact&lt/a&gt
+	Linking to elements on the same page or to other pages on the same site is called navigation.
+	HTML has a special tag called &ltnav&gt that is used to wrap these links in order to organize the content on your web page.
+	<p> 
+	Before displaying data, you must first create the table that will contain the data by using the &lttable> element.
+&lttable>
+&lt/table>
+	The first step in entering data into the table is to add rows using the table row element: &lttr>.
+	Rows aren't sufficient to add data to a table. Each cell element must also be defined.
+	In HTML, you can add data using the table data element: &lttd>Number&lt/td>
+	Table data doesn't make much sense without titles to describe what the data represents.
+	To add titles to rows and columns, you can use the table heading element: &ltth>.
+	Note, also, the use of the scope attribute, which can take one of two values:
+	</p>
+	<p>
+row - this value makes it clear that the heading is for a row.
+col - this value makes it clear that the heading is for a column.
+for example: &ltth scope="row">Name&lt/th>
+	
+	
     </body>
  </html>
