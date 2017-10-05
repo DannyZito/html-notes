@@ -1,1 +1,18 @@
+If the CSS file is stored in the same directory as your HTML file, then you can specify a relative path instead of a URL, like so:
+<link href="./style.css" type="text/css" rel="stylesheet">
+First, add a <link> element within the <head> section then, add the href attribute to the <link> element and set it equal to style.css.
+For example, in HTML, the tag for a paragraph element is <p>. The CSS syntax for selecting <p> elements is:
+p {
+
+}
+
+Two curly braces follow immediately after the selector (an opening and closing brace, respectively).
+Any CSS properties will go inside of the curly braces to style the selected elements.
+To select an HTML element by its class using CSS, a period (.) must be prepended to the class's name.
+Example, if the class is set to title, the CSS selector for it is .title
+  <h1 class="title">Top Vacation Spots</h1> in html code will appear as
+.title {
+  color: teal;
+}
+in style.CSS
 
