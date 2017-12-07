@@ -1,0 +1,75 @@
+ <table width="80%" align="center" >
+    <div id="head_nav">
+    <tr>
+        <th>Time</th>
+        <th>Day 1</th>
+        <th>Day 2</th>
+        <th>Day 3</th>
+        <th>Day 4</th>
+        <th>Day 5</th>
+        <th>Day 6</th>
+		<th>Day 7</th>
+		<th>Day 8</th>
+		<th>Day A1</th>
+		<th>Day A3</th>
+		<th>Day A6</th>
+    </tr>
+</div>  
+
+    <tr>
+        <th>8:20 - 9:20</th>
+        
+            <td>French</td>
+			<td>Gym</td>
+            <td>English</td>
+			<td>Religion</td>
+			<td>Gym</td>
+			<td>Programming</td>
+			<td>Math</td>
+			<td>Science</td>
+			<td>No Class</td>
+			<td>Science</td>
+			<td>English</td>
+			
+            <td title="No Class" class="Holiday"></td>
+            
+        </div>
+    </tr>
+
+    <tr>
+        <th>11:00 - 12:00</td>
+        
+           
+        </div>
+    </tr>
+
+    <tr>
+        <th>12:00 - 01:00</td>
+        
+            <td>
+
+        </div>
+    </tr>
+
+    <tr>
+        <th>01:00 - 02:00</td>
+        
+           
+
+        </div>
+    </tr>
+
+    <tr>
+        <th>02:00 - 03:00</td>
+        
+            <td>Header</td>
+            <td>Header</td>
+            <td>Header</td>
+            <td>Header</td>
+            <td>Header</td>
+            <td>Header</td>
+        </div>
+    </tr>
+</table>
+	
+</html>
