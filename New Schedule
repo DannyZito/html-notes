@@ -77,17 +77,17 @@
 
     <tr>
         <th>9:25 - 10:25</td>
-			 <td>English</td>
-			 <td>Architecture</td>
-			 <td>Science</td>
-			 <td>Programming</td>
-			 <td>Architecture</td>
-			 <td>Science</td>
-			 <td>French</td>
-			 <td>English</td>
-			 <td>Programming</td>
-			 <td>Programming</td>
-			 <td>Programming</td>
+	    <td class="eng">English</td>
+	    <td class="arch">Architecture</td>
+            <td class="sci">Science</td>
+	    <td class="prog">Programming</td>
+	    <td class="arch">Architecture</td>
+	    <td class="sci">Science</td>
+	    <td class="fr">French</td>
+	    <td class="eng">English</td>
+	    <td class="prog">Programming</td>
+            <td class="prog">Programming</td>
+	    <td class="prog">Programming</td>	
         
            
         </div>
@@ -96,17 +96,17 @@
     <tr>
         <th>10:40 - 11:40</td>
         
-             <td>History</td>
-			 <td>Math</td>
-			 <td>History</td>
-			 <td>French</td>
-			 <td>French</td>
-			 <td>Math</td>
-			 <td>English</td>
-			 <td>History</td>
-			 <td>Science</td>
-			 <td>No Class</td>
-			 <td>Science</td>
+             <td class="his">History</td>
+	     <td class="math">Math</td>
+	     <td class="his">History</td>
+	     <td class="fr">French</td>
+	     <td class="fr">French</td>
+	     <td class="math">Math</td>
+	     <td class="eng">English</td>
+	     <td class="his">History</td>
+	     <td class="sci">Science</td>
+	     <td>No Class</td>
+	     <td class="sci">Science</td>
 
         </div>
     </tr>
