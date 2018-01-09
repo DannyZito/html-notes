@@ -58,17 +58,17 @@
     <tr>
         <th>8:20 - 9:20</th>
         
-            <td>French</td>
-			<td>Gym</td>
-            <td>English</td>
-			<td>Religion</td>
-			<td>Gym</td>
-			<td>Programming</td>
-			<td>Math</td>
-			<td>Science</td>
-			<td>No Class</td>
-			<td>Science</td>
-			<td>English</td>
+            <td class="fr">French</td>
+	    <td class="gym">Gym</td>
+            <td class="eng">English</td>
+	    <td class="rel">Religion</td>
+	    <td class="gym">Gym</td>
+	    <td class="prog">Programming</td>
+	    <td class="math">Math</td>
+	    <td class="sci">Science</td>
+	    <td>No Class</td>
+	    <td class="sci">Science</td>
+	    <td class="eng">English</td>
 			
             <td title="No Class" class="Holiday"></td>
             
