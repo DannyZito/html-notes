@@ -112,15 +112,16 @@
     </tr>
 
     <tr>
+      <tr>
         <th>12:30 - 1:00</td>
-			<td>Progamming</td>
-			<td>History</td>
-			<td>HomeRoom</td>
-			<td>Speech</td>
-			<td>History</td>
-			<td>Architecture</td>
-			<td>Level Assembly</td>
-			<td>Speech</td>
+			<td class="prog">Progamming</td>
+			<td class="his">History</td>
+			<td class="hr">HomeRoom</td>
+			<td class="sp">Speech</td>
+			<td class="his">History</td>
+			<td class="arch">Architecture</td>
+			<td class="la">Level Assembly</td>
+			<td class="sp">Speech</td>
 			<td>No Class</td>
 			<td>No Class</td>
 			<td>No Class</td>
@@ -132,37 +133,37 @@
     <tr>
         <th>1:05 - 2:05</td>
         
-            <td>Progamming</td>
-			<td>Science</td>
-			<td>French</td>
-			<td>Science</td>
-			<td>Religion</td>
-			<td>Architecture</td>
-			<td>Religion</td>
-			<td>Math</td>
-			<td>History</td>
-			<td>History</td>
-			<td>History</td>
+            <td class="prog">Progamming</td>
+			<td class="sci">Science</td>
+			<td class="fr">French</td>
+			<td class="sci">Science</td>
+			<td class="rel">Religion</td>
+			<td class="arch">Architecture</td>
+			<td class="rel">Religion</td>
+			<td class="math">Math</td>
+			<td class="his">History</td>
+			<td class="his">History</td>
+			<td class="his">History</td>
         </div>
     </tr>
 	
 	 <tr>
         <th>2:10 - 3:05</td>
-			 <td>Math</td>
-			 <td>Religion</td>
-			 <td>Math</td>
-			 <td>Math</td>
-			 <td>English</td>
-			 <td>French</td>
-			 <td>Science</td>
-			 <td>Architecture</td>
-			 <td>English</td>
-			 <td>English</td>
+			 <td class="math">Math</td>
+			 <td class="rel">Religion</td>
+			 <td class="math">Math</td>
+			 <td class="math">Math</td>
+			 <td class="eng">English</td>
+			 <td class="fr">French</td>
+			 <td class="sci" >Science</td>
+			 <td class="arch">Architecture</td>
+			 <td class="eng">English</td>
+			 <td class="eng">English</td>
 			 <td>No Class</td>
            
 
         </div>
     </tr>
-</table>
-	
+  </table>
+ </body>
 </html>
