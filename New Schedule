@@ -36,6 +36,17 @@
     </style>
 
 </head>
+<form id="ya">
+	    <input placeholder="Enter Class" id="demo" onclick="click"> 
+		<input type="Submit" value="go" onclick="yemen">
+	<form>
+	
+	<script>
+		function yemen ()
+		{ 
+			document.get
+		}
+	</script>
 <body>
     <table width="80%" align="center" >
     <div id="head_nav">
