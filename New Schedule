@@ -42,10 +42,12 @@
 	<form>
 	
 	<script>
+		
 		function yemen ()
 		{ 
-			document.get
+			document.getElementById("demo").innerHTML = "clicked on"
 		}
+	
 	</script>
 <body>
     <table width="80%" align="center" >
