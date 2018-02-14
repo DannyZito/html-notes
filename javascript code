@@ -33,7 +33,7 @@ var classes;
 				classes = 'rel' ;
 				break;
 				
-			case 'Architevture' :
+			case 'Architecture' :
 				classes = 'arch' ;
 				break;
 				
