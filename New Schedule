@@ -1,55 +1,24 @@
 <html>
 <head>
-    <title>Timetable</title>
-    <style type="text/css">
-    body
-    {
-        font-family: Times New Roman;
-    }
-
-    th,td
-    {
-        margin: 0;
-        text-align: center;
-        border-collapse: collapse;
-        outline: 1px solid #e3e3e3;
-    }
-
-    td
-    {
-        padding: 5px 10px;
-    }
-
-    th
-    {
-        background: #666;
-        color: white;
-        padding: 5px 10px;
-    }
-
-    td:hover
-    {
-        cursor: pointer;
-        background: #669;
-        color: cyan;
-    }
-    </style>
+	<link href="table schedule.css" type="text/css" rel="stylesheet">
+	<!--- <src="table schedule.js"></script> this is uselss for now...--->
+    <title>4-F Classes</title>
+	
+	<script src="java code.js"> </script> 
+  
 
 </head>
-<form id="ya">
+	<form id="ya">
 	    <input placeholder="Enter Class" id="demo" onclick="click"> 
-		<input type="Submit" value="go" onclick="yemen">
+		<input type="Submit" id="search" value="Enter" onclick="yemen">
 	<form>
 	
-	<script>
-		
-		function yemen ()
-		{ 
-			document.getElementById("demo").innerHTML = "clicked on"
-		}
 	
-	</script>
+	
+
+	
 <body>
+<body background="wallpaper.jpg">
     <table width="80%" align="center" >
     <div id="head_nav">
     <tr>
@@ -72,16 +41,16 @@
         <th>8:20 - 9:20</th>
         
             <td class="fr">French</td>
-	    <td class="gym">Gym</td>
+			<td class="gym">Gym</td>
             <td class="eng">English</td>
-	    <td class="rel">Religion</td>
-	    <td class="gym">Gym</td>
-	    <td class="prog">Programming</td>
-	    <td class="math">Math</td>
-	    <td class="sci">Science</td>
-	    <td>No Class</td>
-	    <td class="sci">Science</td>
-	    <td class="eng">English</td>
+			<td class="rel">Religion</td>
+			<td class="gym">Gym</td>
+			<td class="prog">Programming</td>
+			<td class="math">Math</td>
+			<td class="sci">Science</td>
+			<td>No Class</td>
+			<td class="sci">Science</td>
+			<td class="eng">English</td>
 			
             <td title="No Class" class="Holiday"></td>
             
@@ -90,17 +59,17 @@
 
     <tr>
         <th>9:25 - 10:25</td>
-	    <td class="eng">English</td>
-	    <td class="arch">Architecture</td>
-            <td class="sci">Science</td>
-	    <td class="prog">Programming</td>
-	    <td class="arch">Architecture</td>
-	    <td class="sci">Science</td>
-	    <td class="fr">French</td>
-	    <td class="eng">English</td>
-	    <td class="prog">Programming</td>
-            <td class="prog">Programming</td>
-	    <td class="prog">Programming</td>	
+			 <td class="eng">English</td>
+			 <td class="arch">Architecture</td>
+			 <td class="sci">Science</td>
+			 <td class="prog">Programming</td>
+			 <td class="arch">Architecture</td>
+			 <td class="sci">Science</td>
+			 <td class="fr">French</td>
+			 <td class="eng">English</td>
+			 <td class="prog">Programming</td>
+			 <td class="prog">Programming</td>
+			 <td class="prog">Programming</td>
         
            
         </div>
@@ -110,22 +79,21 @@
         <th>10:40 - 11:40</td>
         
              <td class="his">History</td>
-	     <td class="math">Math</td>
-	     <td class="his">History</td>
-	     <td class="fr">French</td>
-	     <td class="fr">French</td>
-	     <td class="math">Math</td>
-	     <td class="eng">English</td>
-	     <td class="his">History</td>
-	     <td class="sci">Science</td>
-	     <td>No Class</td>
-	     <td class="sci">Science</td>
+			 <td class="math">Math</td>
+			 <td class="his">History</td>
+			 <td class="fr">French</td>
+			 <td class="fr">French</td>
+			 <td class="math">Math</td>
+			 <td class="eng">English</td>
+			 <td class="his">History</td>
+			 <td class="sci">Science</td>
+			 <td>No Class</td>
+			 <td class="sci">Science</td>
 
         </div>
     </tr>
 
     <tr>
-      <tr>
         <th>12:30 - 1:00</td>
 			<td class="prog">Progamming</td>
 			<td class="his">History</td>
@@ -177,6 +145,6 @@
 
         </div>
     </tr>
-  </table>
- </body>
+</table>
+</body>
 </html>
