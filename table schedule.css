@@ -1,0 +1,52 @@
+ <title>Timetable</title>
+    <style type="text/css">
+    body
+    {
+        font-family: Times New Roman;
+    }
+
+    th,td
+    {
+        margin: 0;
+        text-align: center;
+        border-collapse: collapse;
+        outline: 1px solid #e3e3e3;
+    }
+
+    td
+    {
+        padding: 5px 10px;
+    }
+
+    th
+    {
+        background: #666;
+        color: white;
+        padding: 5px 10px;
+    }
+
+#demo {
+		border: 4px solid;
+		font-size: 22px;
+		width: 78%;
+		border-collapse: collapse;
+		
+	}
+
+	#search {
+		border: 4px solid;
+		font-size: 22px;
+		outline: 1px solid #e3e3e3;
+		width: 10%;
+		text-align: center;
+		border-collapse: collapse;
+		padding-left: 30px;
+
+	}
+    td:hover
+    {
+        cursor: pointer;
+        background: #669;
+        color: cyan;
+    }
+    </style>
